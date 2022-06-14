@@ -1,0 +1,16 @@
+DERLEME NOTLARI
+
+	Bilgisayarda shell e girip doslarimizi gorebiliyoruz.
+	Direk bulusdugumuz dosyadanda acabiliriz. Bunun icin arama kismini silip cdm yazmamiz yeterlidir.
+	dir komutu verdigimiz zaman klasorun icindeki hersey listelenir. Klasorun ustune cift tiklayip gormek gibi.
+	gcc bizim derleme komutumuzdur.(Programimiz)
+	gcc derlemek istedigimiz dosyanin ismi yazildigi zaman enter a basinca bu C dosyasini exe ye cevirmis oluyor.
+		ornek: gcc elemantest
+	gcc -o vermek istedigin isim   yazildigi zaman dosyanin ismi degistirilmis olur veya isim verilmis olur.
+	gcc --output ayni gorevi yapar
+	bir kelimeyi yazarken birkac harfini yazdiktan sonra tab tusuna basarken dosyayi otamatik bulur tamamlar yazarken pratiklik saglar.
+		ornek: test.c dosyamiz var.
+		gcc test.c -o program.exe    test.c dosyasini derler ve ona program.exe ismini verir. Kaynak dosyasindan hedef programi olusturuyor.
+	exe uzantili dosyalar calistirilabilir dosyalardir.
+	gcc -Wall main.c -o test.exe  burada wall u hep yazmak lazim cunku bize erorleri gosteriyor. Derlerken hep boyle yapalim. 
+	

@@ -1,0 +1,25 @@
+#include <stdio.h>
+void printHello(int x);
+
+int main()
+{
+	
+	printHello(3);
+	
+	
+	return 0;
+}
+void printHello(int x)
+{
+	if(x==0)
+	{
+		return;
+	}
+	
+	printf("Hello %d\n", x);
+	
+	printHello(x-1);
+	
+	printf("Hello %d\n", x);
+	return;
+}

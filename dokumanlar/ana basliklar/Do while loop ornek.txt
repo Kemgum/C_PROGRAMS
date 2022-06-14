@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+	unsigned int baslangic = 3;
+	unsigned int bitis = 60;
+
+	do
+	{
+		printf("%d ", baslangic);
+		baslangic = baslangic + 3;
+		
+		
+	}while(baslangic <= bitis);
+	
+	
+	
+	return 0;
+}

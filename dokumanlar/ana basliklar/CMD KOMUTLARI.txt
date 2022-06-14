@@ -1,0 +1,4 @@
+cmd dir yap gcc -Wall -o isim.exe main.c maymath.c
+ .\ calistirmak icin 
+cd dosya ismi dosyanin icine girmeni sagla (change director)
+cd .. bir ust dosyaya cikma
